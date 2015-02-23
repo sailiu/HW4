@@ -30,7 +30,7 @@ Partial Class _Default
         If grosspay <= 500 Then tax = 0.18 Else tax = 0.22
 
         'calculating
-        netpay = grosspay * (1 - tax) - aftertax
+        netpay = (grosspay - pretax) * (1 - tax) - aftertax
 
         lbl_result.Text = netpay
 
