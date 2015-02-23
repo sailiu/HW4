@@ -1,0 +1,14 @@
+﻿body {
+    background-color:gray; 
+    padding:20px;
+}
+
+img {
+    width:200px;
+    border:solid 1px black;
+}
+
+h1{
+    font-weight:bold;
+    font-size:25px;
+}
